@@ -6,11 +6,6 @@
   <datafiles number="10" name="datafiles"/>
   <NewExtensions/>
   <sounds name="sound">
-    <sound>sound\boom</sound>
-    <sound>sound\click</sound>
-    <sound>sound\buttonclick</sound>
-    <sound>sound\startbuttonclick</sound>
-    <sound>sound\mouseclick</sound>
     <sound>sound\engineroom</sound>
     <sound>sound\hydrothunder</sound>
     <sound>sound\communications</sound>
@@ -55,9 +50,6 @@
   <scripts name="scripts">
     <script>scripts\shift_hue.gml</script>
   </scripts>
-  <shaders name="shaders">
-    <shader type="GLSLES">shaders\sh_hue.shader</shader>
-  </shaders>
   <fonts name="fonts">
     <font>fonts\font0</font>
     <font>fonts\robotolight</font>
@@ -116,6 +108,7 @@
     <object>objects\clicksoundcontrol</object>
     <object>objects\musicrandomizer</object>
     <object>objects\fadecontroller</object>
+    <object>objects\object49</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\variableset</room>
